@@ -13,7 +13,7 @@ public class DropdownUpdater : MonoBehaviour
     private string ud;
     private List<string> indoorsDown = new List<string> {"SGA","NSBE","TEA","SHPE",
                                                         "Engineering Lab","PLS Tutoring","Chess Club","Robotics Club","Soccer Club","Makerspace",
-                                                        "Physics Lab","Ablaze","Hallway","Cybersecurity Club", "Tabletop Club"};
+                                                        "Chemistry Lab","Ablaze","Hallway","Cybersecurity Club", "Tabletop Club"};
     private List<string> indoorsUp = new List<string> {"Library",
                                                         "Student Space",
                                                         "ASCE"};

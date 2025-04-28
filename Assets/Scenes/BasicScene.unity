@@ -1380,7 +1380,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &269209995
 Canvas:
   m_ObjectHideFlags: 0
@@ -1390,7 +1390,7 @@ Canvas:
   m_GameObject: {fileID: 269209992}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 2
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -1411,19 +1411,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269209992}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1248724886}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 452463685}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 175, y: 140.7}
+  m_SizeDelta: {x: 1637, y: 687}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &303113045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1929,6 +1929,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 9014170783809206335, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 269209996}
     - targetCorrespondingSourceObject: {fileID: 9014170785475729501, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       insertIndex: 0
       addedObject: {fileID: 695684456}
@@ -1989,6 +1992,11 @@ MonoBehaviour:
 --- !u!20 &452463682 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 9014170783809206330, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+  m_PrefabInstance: {fileID: 452463679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &452463685 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9014170783809206335, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
   m_PrefabInstance: {fileID: 452463679}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &485251071
@@ -4375,7 +4383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1248724886
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6627,7 +6635,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3891706409001521033, guid: 2c3eb3e1645b2ba46af29194d7d9a63a, type: 3}
       propertyPath: m_Name
-      value: Physics Lab
+      value: Chemistry Lab
       objectReference: {fileID: 0}
     - target: {fileID: 4846029626840015823, guid: 2c3eb3e1645b2ba46af29194d7d9a63a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7459,4 +7467,3 @@ SceneRoots:
   - {fileID: 1249617921}
   - {fileID: 114025955}
   - {fileID: 633042389}
-  - {fileID: 269209996}
