@@ -11,7 +11,7 @@ public class DropdownUpdater : MonoBehaviour
     [SerializeField] private TMP_Dropdown finalDropdown;
     private string io;
     private string ud;
-    private List<string> indoorsDown = new List<string> {"NSBE","SGA","TEA","SHPE",
+    private List<string> indoorsDown = new List<string> {"SGA","NSBE","TEA","SHPE",
                                                         "Engineering Lab","PLS Tutoring","Chess Club","Robotics Club","Soccer Club","Makerspace",
                                                         "Physics Lab","Ablaze","Hallway","Cybersecurity Club", "Tabletop Club"};
     private List<string> indoorsUp = new List<string> {"Library",
@@ -32,7 +32,6 @@ public class DropdownUpdater : MonoBehaviour
         io = ioDrop.options[ioDrop.value].text;
         ud = udDrop.options[udDrop.value].text;
 
-        Debug.Log("ChangeList");
         finalDropdown.options.Clear();
         //indoors
         if(io == "Inside") {
